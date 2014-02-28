@@ -84,6 +84,7 @@ keep with that tradition, we supplied a "api\_url\_for()". Due to supporting
 multiple API versions wiht our routing, we need a special url\_for function.
 
 Other usage options:
+
     api_url_for('print_stuff') ## Usage throws DeprecationError
     api_url_for('get_worlds') ## Returns API URL for configuration set version
     api_url_for('get_worlds', 0) ## Returns version 0 API url (don't use)
