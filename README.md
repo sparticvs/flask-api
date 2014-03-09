@@ -81,7 +81,7 @@ DeprecationError exception when attempting to build the URLs for the page.
 ### Jinja2 Usage
 Flask supplies the ability to use "url\_for()" in Jinja2 templates. In order to
 keep with that tradition, we supplied a "api\_url\_for()". Due to supporting
-multiple API versions wiht our routing, we need a special url\_for function.
+multiple API versions with our routing, we need a special url\_for function.
 
 Other usage options:
 
